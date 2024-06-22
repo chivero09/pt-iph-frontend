@@ -95,7 +95,7 @@ const Terminal = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-3xl font-bold mb-6 text-zinc-800 border-b-2 border-cyan-700">
+      <h2 className="text-2xl font-bold mb-6 text-zinc-800 border-b-2 border-cyan-700">
         Gestión de Terminales
       </h2>
       {error && (
@@ -173,7 +173,7 @@ const Terminal = () => {
         </fieldset>
       </form>
       <section>
-        <h3 className="text-2xl font-semibold mt-8 mb-4 text-zinc-800 border-b border-cyan-700">
+        <h3 className="text-xl font-semibold mt-8 mb-4 text-zinc-800 border-b border-cyan-700">
           Lista de Terminales
         </h3>
         {terminals.length > 0 ? (
